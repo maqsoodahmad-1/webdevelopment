@@ -1,0 +1,2 @@
+web: gunicorn pages1_project.wsgi
+

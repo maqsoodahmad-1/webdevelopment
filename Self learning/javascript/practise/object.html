@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+</head>
+
+<body>
+    <h2 style="text-align: center; color:green">This is the begening of javascript programming</h2>
+
+    <script>
+        const person = {
+            name:
+            {
+                first:'Bob',
+                last:'Smith'
+            },
+            age:34,
+            bio(){
+                console.log(`${this.name[0]} ${this.name[1]} is ${this.age} years old.`);
+        
+            },
+            introduceYourself:function(){
+                consolr.log(`Hi i am ${this.name[0]} and i am ${this.age} years old.`);
+            }
+        }
+
+        const myDataName = 'height'
+        const myDataValue = '1.75m'
+        person[myDataName] = myDataValue
+
+    </script>
+
+</body>
+
+</html>

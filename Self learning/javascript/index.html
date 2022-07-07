@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--creating html  paragraph tag having id-->
+    <h1 id="sometext">hello how are you</h1>
+    <h2 id="getage"></h2>
+    <!--creating script inside html-->
+    <script>
+        console.log('hello');
+        console.log('hello');
+    </script>
+    <!--getting script by refrence -->
+   <!-- <script src="home.js"></script>-->
+    <!--script with json-->
+    <script>
+        let students = `[
+        {
+            "name": "Maqsood",
+            "age": 25,
+            "height": 170
+        },
+        {
+            "name": "junaid",
+            "age": 18,
+            "height": 160
+        }     
+        
+        ]`
+
+        //console.log(students);//shows the details of students 
+        console.log(JSON.parse(students)[1].age);  
+    </script>
+</body>
+
+</html>

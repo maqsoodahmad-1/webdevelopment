@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constructors</title>
+</head>
+<body>
+    <div>
+        <h1 style="text-align: center; color:yellowgreen">Learning Constructors !</h1>
+    
+    </div>
+
+<script>
+
+function person(name)        
+{
+    this.name=name;
+    this.introduceSelf= function(){
+        console.log(`Hi my name is ${this.name}`);
+    }
+}
+
+const maqsood = new person(maqsood);
+maqsood.name;
+maqsood.introduceSelf();
+
+const shabnam = new person(shabnam);
+shabnam.name;
+shabnam.introduceSelf();
+
+</script>
+</body>
+</html>

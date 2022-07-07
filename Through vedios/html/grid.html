@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+
+    <style>
+        #Grid{
+            background-color: green;
+            display: grid;
+            padding:20px;
+            grid-column-gap: 25px;/*space between columns*/
+            grid-row-gap: 25px;/*space between rows*/
+            grid-template-columns: 200px 200px auto;/*spacify how many columns and size of a column 
+        first two columns are of size of 200px each and the third column's size is automatic means it shrinks accordiung to size of a screen*/
+        }
+        .grid-item{
+            background-color: white;
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="Grid">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+        <div class="grid-item">10</div>
+        <div class="grid-item">11</div>
+        <div class="grid-item">12</div>
+        <div class="grid-item">13</div>
+
+    </div>
+</body>
+</html>
